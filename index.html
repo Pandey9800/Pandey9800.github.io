@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pandey | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="progress-bar"></div>
+
+<div id="loader">
+  <div class="spinner"></div>
+</div>
+
+<div class="bg-waves"></div>
+
+<nav class="navbar">
+  <div class="logo"><img src="assets/logo.png" style="width: 75px; height: 75px;" alt="Pandey"></div>
+
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="hamburger">☰</div>
+</nav>
+
+<section id="home" class="section hero reveal">
+<div class="container">
+
+<div class="hero-text">
+<h1>I Build Systems That Run Businesses</h1>
+<p>
+Full-stack developer building scalable APIs and mobile systems
+that automate real business workflows.
+</p>
+<a href="#projects" class="btn">View Projects</a>
+</div>
+
+<div class="hero-avatar-wrapper">
+
+  <div class="orbit-container">
+    <span class="particle p1"></span>
+    <span class="particle p2"></span>
+    <span class="particle p3"></span>
+    <span class="particle p4"></span>
+  </div>
+
+  <div class="avatar-ring"></div>
+
+  <div class="hero-avatar">
+    <img src="assets/avatar.png" alt="Avatar">
+  </div>
+
+</div>
+
+
+
+</div>
+</section>
+
+<section id="projects" class="section reveal">
+<div class="container">
+
+<h2>Projects</h2>
+
+<div class="projects-wrapper">
+
+<!-- Project 1 -->
+<div class="project-card glass" data-modal="modal1912">
+
+<img src="assets/1912-logo.png" class="project-logo">
+
+<div class="project-info">
+<h3>1912 Workforce Manager</h3>
+<p class="project-subtitle">
+Enterprise attendance & workforce automation platform
+</p>
+
+<div class="tech-stack">
+<span>.NET</span>
+<span>React Native</span>
+<span>SQL Server</span>
+</div>
+
+<button class="view-btn">View Case Study →</button>
+</div>
+
+</div>
+
+<!-- Project 2 -->
+<div class="project-card glass" data-modal="modalCA">
+
+<img src="assets/ca-logo.png" class="project-logo">
+
+<div class="project-info">
+<h3>CA Office Manager</h3>
+<p class="project-subtitle">
+Accounting workflow automation system
+</p>
+
+<div class="tech-stack">
+<span>.NET</span>
+<span>SQL Server</span>
+</div>
+
+<button class="view-btn">View Case Study →</button>
+</div>
+
+</div>
+
+<!-- Project 3 -->
+<div class="project-card glass" data-modal="modalEcom">
+
+<img src="assets/ecom-logo.png" class="project-logo">
+
+<div class="project-info">
+<h3>React E-commerce Platform</h3>
+<p class="project-subtitle">
+Mobile-first shopping platform with API integration
+</p>
+
+<div class="tech-stack">
+<span>React</span>
+<span>Node API</span>
+</div>
+
+<button class="view-btn">View Case Study →</button>
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+
+<section id="about" class="section reveal">
+<div class="container">
+
+<h2>About Me</h2>
+
+<div class="glass about-card">
+
+<p>
+I build production-ready business applications using .NET and React Native,
+focusing on scalable APIs and workflow automation.
+My work centers on transforming manual office processes into efficient digital platforms.
+</p>
+
+
+<div class="skills">
+<span>.NET</span>
+<span>React Native</span>
+<span>SQL Server</span>
+<span>REST APIs</span>
+<span>Git</span>
+</div>
+
+<a href="tel:7509305601" class="call-btn">
+📞 Get in Touch
+</a>
+
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="section reveal">
+<div class="container">
+
+<h2>Contact</h2>
+
+<div class="glass contact-card">
+<p >Email: pandey.ravi9800@gmail.com</p> <br>
+<p>GitHub: github.com/Pandey9800</p>
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 Pandey. All rights reserved.
+</footer>
+
+<!-- Modal 1 -->
+<div class="project-modal" id="modal1912">
+<div class="modal-content">
+<span class="close-modal">&times;</span>
+
+<h2>1912 Workforce Manager</h2>
+<p>
+Multi-user enterprise attendance system with GPS tracking,
+shift workflows, approvals, and automated roster management.
+</p>
+
+<div class="modal-tech">
+<span>.NET Core API</span>
+<span>React Native</span>
+<span>SQL Server</span>
+</div>
+
+<div class="modal-video">
+<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_1" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+
+<!-- Modal 2 -->
+<div class="project-modal" id="modalCA">
+<div class="modal-content">
+<span class="close-modal">&times;</span>
+
+<h2>CA Office Manager</h2>
+<p>
+Business automation platform for accounting workflows,
+document tracking, and operational management.
+</p>
+
+<div class="modal-tech">
+<span>.NET</span>
+<span>SQL Server</span>
+</div>
+
+<div class="modal-video">
+<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_2" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+
+<!-- Modal 3 -->
+<div class="project-modal" id="modalEcom">
+<div class="modal-content">
+<span class="close-modal">&times;</span>
+
+<h2>React E-commerce Platform</h2>
+<p>
+Modern e-commerce system featuring product catalog,
+cart management, and API-driven backend.
+</p>
+
+<div class="modal-tech">
+<span>React</span>
+<span>API Integration</span>
+</div>
+
+<div class="modal-video">
+<iframe
+  src="https://www.youtube.com/embed/2pQcTFuiq8Y"
+  allowfullscreen>
+</iframe>
+
+</div>
+</div>
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
